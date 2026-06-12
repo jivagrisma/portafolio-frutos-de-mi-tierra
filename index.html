@@ -26,19 +26,24 @@
     <div class="nav-top">
       <div class="nav-brand-group">
         <a href="#hero" class="nav-brand" aria-label="Frutos de mi Tierra inicio">
-          <img src="assets/logo_circular_ft.png"
+          <img src="/home/jivagrisma/Descargas/files/frutos-de-mi-tierra/assets/logo_circular_ft.png"
                alt="Logo Frutos de mi Tierra"
                class="nav-logo"
                width="44" height="44" />
           Frutos de mi Tierra <span>· repostería</span>
         </a>
-        <button class="btn-pdf-brand" onclick="window.print()" aria-label="Descargar catálogo PDF" title="Descargar catálogo PDF">
+        <a href="/home/jivagrisma/Descargas/files/portafolio-frutos-de-mi-tierra.pdf"
+           download="portafolio-frutos-de-mi-tierra.pdf"
+           class="btn-pdf-brand"
+           aria-label="Descargar portafolio PDF"
+           title="Descargar portafolio PDF">
           <i class="fas fa-download" aria-hidden="true"></i>
           <span>Descargar PDF</span>
-        </button>
+        </a>
       </div>
       <div class="nav-actions">
-        <button id="btn-pdf" class="btn-icon" aria-label="Descargar catálogo PDF" title="Descargar catálogo PDF" onclick="window.print()">
+        <button id="btn-pdf-icon" class="btn-icon" aria-label="Descargar catálogo PDF" title="Descargar catálogo PDF"
+                onclick="document.querySelector('.btn-pdf-brand').click()">
           <i class="fas fa-file-pdf" aria-hidden="true"></i>
         </button>
         <button id="theme-toggle" class="btn-icon" aria-label="Cambiar tema">
@@ -102,10 +107,13 @@
       <button id="btn-ver-catalogo" class="btn-primary" aria-label="Ver catálogo completo de productos">
         Ver catálogo completo
       </button>
-      <button id="btn-pdf" class="btn-secondary" aria-label="Descargar catálogo en PDF" onclick="window.print()">
+      <a href="/home/jivagrisma/Descargas/files/portafolio-frutos-de-mi-tierra.pdf"
+         download="portafolio-frutos-de-mi-tierra.pdf"
+         class="btn-secondary"
+         aria-label="Descargar portafolio en PDF">
         <i class="fas fa-download" aria-hidden="true" style="margin-right:6px"></i>
-        Descargar catálogo PDF
-      </button>
+        Descargar portafolio PDF
+      </a>
     </div>
   </section>
 

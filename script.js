@@ -568,7 +568,7 @@ function closeCart() {
 }
 
 /* ─── WHATSAPP ─────────────────────────────── */
-const WA_NUMBER = '573207528652';
+const WA_NUMBER = '573103710992';
 
 function buildWhatsAppMessage() {
   if (cart.items.length === 0) {
